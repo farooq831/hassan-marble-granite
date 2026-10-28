@@ -53,6 +53,17 @@ All file paths are under `assets/images/`. Each image exists as `.webp` and `.jp
 | 36 | `products/violet-marble-slab` | [pexels.com/photo/9990273](https://www.pexels.com/photo/9990273/) | krakograff-textures (Pexels profile) | Pexels License |
 | 37 | `products/granite-floor-tiles` | [pexels.com/photo/11255408](https://www.pexels.com/photo/11255408/) | seamlesstextures (Pexels profile) | Pexels License |
 | 38 | `products/marble-skirting` | [pexels.com/photo/37042958](https://www.pexels.com/photo/37042958/) | esra-akin (Pexels profile) | Pexels License |
+| 39 | `products/black-chips-flooring` | [pexels.com/photo/1531828](https://www.pexels.com/photo/1531828/) | hngstrm (Pexels profile) | Pexels License |
+| 40 | `products/red-chips-flooring` | [pexels.com/photo/17552932](https://www.pexels.com/photo/17552932/) | ekrulila (Pexels profile) | Pexels License |
+| 41 | `products/green-chips-flooring` | [pexels.com/photo/13248767](https://www.pexels.com/photo/13248767/) | nicolas (Pexels profile) | Pexels License |
+| 42 | `products/zero-chips-orange-flooring` | [pexels.com/photo/37293880](https://www.pexels.com/photo/37293880/) | mavihnt (Pexels profile) | Pexels License |
+| 43 | `products/marble-border-designs` | [pexels.com/photo/7045766](https://www.pexels.com/photo/7045766/) | Max Vakhtbovych (artbovich) | Pexels License |
+| 44 | `products/marble-patti-black-white` | [pexels.com/photo/10410101](https://www.pexels.com/photo/10410101/) | matreding (Pexels profile) | Pexels License |
+| 45 | `products/sunny-grey-skirting` | [pexels.com/photo/11254955](https://www.pexels.com/photo/11254955/) | seamlesstextures (Pexels profile) | Pexels License |
+| 46 | `products/granite-skirting` | [pexels.com/photo/11255405](https://www.pexels.com/photo/11255405/) | seamlesstextures (Pexels profile) | Pexels License |
+| 47 | `products/granite-stairs` | [pexels.com/photo/8175399](https://www.pexels.com/photo/8175399/) | didsss (Pexels profile) | Pexels License |
+| 48 | `products/sunny-grey-stairs` | [pexels.com/photo/12100664](https://www.pexels.com/photo/12100664/) | Markus Winkler | Pexels License |
+| 49 | `products/white-marble-stairs` | [pexels.com/photo/8659658](https://www.pexels.com/photo/8659658/) | martin-de-arriba (Pexels profile) | Pexels License |
 
 ## Generated (not photographs)
 

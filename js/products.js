@@ -23,7 +23,7 @@
    No prices are shown — every card says "Ask for rate".
    ===================================================================== */
 
-window.CATEGORIES = ["marble", "granite", "chips", "onyx", "tiles", "special"];
+window.CATEGORIES = ["marble", "granite", "chips", "onyx", "tiles", "borders", "stairs", "special"];
 
 window.PRODUCTS = [
   /* ---------------- MARBLE ---------------- */
@@ -152,6 +152,38 @@ window.PRODUCTS = [
     alt: { en: "Black, white and grey chips flooring close-up", ur: "سیاہ، سفید اور سرمئی چپس فلورنگ کا قریبی منظر" }
   },
   {
+    id: "black-chips", category: "chips", featured: false, stockConfirmed: false,
+    name: { en: "Black Chips", ur: "بلیک چپس" },
+    desc: { en: "Dark chips flooring that hides wear, for busy entrances and corridors.",
+            ur: "گہرے رنگ کی چپس فلورنگ جو گھساؤ چھپاتی ہے، مصروف داخلی راستوں اور راہداریوں کے لیے۔" },
+    image: "assets/images/products/black-chips-flooring", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Dark grey and black chips (terrazzo) floor", ur: "گہرے سرمئی اور سیاہ چپس (ٹیرازو) کا فرش" }
+  },
+  {
+    id: "red-green-chips", category: "chips", featured: false, stockConfirmed: false,
+    name: { en: "Red & Green Chips", ur: "ریڈ اینڈ گرین چپس" },
+    desc: { en: "Light base with red and green chips for a warm, colourful floor.",
+            ur: "ہلکی بیس پر سرخ اور سبز چپس، گرم اور رنگین فرش کے لیے۔" },
+    image: "assets/images/products/red-chips-flooring", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Cream chips floor with red and green stone chips", ur: "سرخ اور سبز پتھر کے دانوں والا کریم چپس فرش" }
+  },
+  {
+    id: "green-chips", category: "chips", featured: false, stockConfirmed: false,
+    name: { en: "Green Chips", ur: "گرین چپس" },
+    desc: { en: "Green and black chips on a light base, a bold and natural look.",
+            ur: "ہلکی بیس پر سبز اور سیاہ چپس، نمایاں اور قدرتی انداز۔" },
+    image: "assets/images/products/green-chips-flooring", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Chips floor with large green and black stone pieces", ur: "بڑے سبز اور سیاہ پتھر کے ٹکڑوں والا چپس فرش" }
+  },
+  {
+    id: "zero-chips-orange", category: "chips", featured: false, stockConfirmed: false,
+    name: { en: "Zero Chips (Orange)", ur: "زیرو چپس (اورنج)" },
+    desc: { en: "Fine zero-size chips in a warm orange tone for a smooth, even finish.",
+            ur: "باریک زیرو سائز چپس، گرم اورنج رنگ میں، ہموار اور یکساں فنش کے لیے۔" },
+    image: "assets/images/products/zero-chips-orange-flooring", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Fine-grain orange chips finish on stair steps", ur: "سیڑھیوں پر باریک دانے والی اورنج چپس فنش" }
+  },
+  {
     id: "chips-granite-inlay", category: "chips", featured: false, stockConfirmed: false,
     name: { en: "Chips with Granite Inlays", ur: "گرینائٹ اِنلے کے ساتھ چپس" },
     desc: { en: "Chips flooring set with granite diamonds, borders or patterns.",
@@ -195,21 +227,81 @@ window.PRODUCTS = [
     image: "assets/images/products/granite-floor-tiles", webp: true, /* stock reference photo (Pexels) — replace with your own */
     alt: { en: "Grey speckled granite surface", ur: "سرمئی دانے دار گرینائٹ کی سطح" }
   },
+
+  /* ---------------- BORDERS, PATTI & SKIRTING ---------------- */
   {
-    id: "stair-step-tiles", category: "tiles", featured: false, stockConfirmed: false,
-    name: { en: "Stair & Step Tiles", ur: "سیڑھی اور اسٹیپ ٹائلز" },
-    desc: { en: "Treads and risers in marble, granite or chips.",
-            ur: "ماربل، گرینائٹ یا چپس میں سیڑھیوں کے اسٹیپ اور رائزر۔" },
-    image: "assets/images/products/stair-step-tiles", webp: true,
-    alt: { en: "Stone steps with a speckled chips finish", ur: "دانے دار چپس فنش والی پتھر کی سیڑھیاں" }
+    id: "marble-borders", category: "borders", featured: false, stockConfirmed: false,
+    name: { en: "Marble Borders", ur: "ماربل بارڈر" },
+    desc: { en: "Marble borders cut to any width and shape: straight bands, corners, curves and frames around rooms.",
+            ur: "ہر چوڑائی اور شکل میں کٹے ماربل بارڈر: سیدھی پٹیاں، کونے، گولائیاں اور کمروں کے گرد فریم۔" },
+    image: "assets/images/products/marble-border-designs", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Hallway floor framed by contrasting marble border bands", ur: "مختلف رنگ کی ماربل بارڈر پٹیوں سے سجا ہال کا فرش" }
   },
   {
-    id: "skirting", category: "tiles", featured: false, stockConfirmed: false,
-    name: { en: "Skirting", ur: "اسکرٹنگ" },
+    id: "marble-patti-black-white", category: "borders", featured: false, stockConfirmed: false,
+    name: { en: "Marble Patti (Black & White)", ur: "ماربل پٹی (بلیک اینڈ وائٹ)" },
+    desc: { en: "Black and white marble strips (patti) for borders, lines and contrast details.",
+            ur: "بارڈر، لائنوں اور کنٹراسٹ ڈیزائن کے لیے سیاہ اور سفید ماربل کی پٹیاں۔" },
+    image: "assets/images/products/marble-patti-black-white", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Black marble beside white marble strips", ur: "سفید ماربل پٹیوں کے ساتھ سیاہ ماربل" }
+  },
+  {
+    id: "skirting", category: "borders", featured: false, stockConfirmed: false,
+    name: { en: "Marble Skirting", ur: "ماربل اسکرٹنگ" },
     desc: { en: "Matching stone skirting to finish floors neatly.",
             ur: "فرش کو صاف ستھری فنشنگ دینے کے لیے ہم رنگ پتھر کی اسکرٹنگ۔" },
     image: "assets/images/products/marble-skirting", webp: true, /* stock reference photo (Pexels) — replace with your own */
     alt: { en: "Marble stairs with matching marble skirting along the walls", ur: "دیواروں کے ساتھ ماربل اسکرٹنگ والی ماربل سیڑھیاں" }
+  },
+  {
+    id: "sunny-grey-skirting", category: "borders", featured: false, stockConfirmed: false,
+    name: { en: "Sunny Grey Skirting", ur: "سنی گرے اسکرٹنگ" },
+    desc: { en: "Sunny Grey granite skirting to match grey granite floors and stairs.",
+            ur: "گرے گرینائٹ فرش اور سیڑھیوں سے میل کھاتی سنی گرے گرینائٹ اسکرٹنگ۔" },
+    image: "assets/images/products/sunny-grey-skirting", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Light grey speckled granite surface", ur: "ہلکے سرمئی دانے دار گرینائٹ کی سطح" }
+  },
+  {
+    id: "granite-skirting", category: "borders", featured: false, stockConfirmed: false,
+    name: { en: "Granite Skirting", ur: "گرینائٹ اسکرٹنگ" },
+    desc: { en: "Hard-wearing granite skirting in black, grey and other granite colours.",
+            ur: "سیاہ، سرمئی اور دیگر رنگوں میں مضبوط گرینائٹ اسکرٹنگ۔" },
+    image: "assets/images/products/granite-skirting", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Grey and black speckled granite surface", ur: "سرمئی اور سیاہ دانے دار گرینائٹ کی سطح" }
+  },
+
+  /* ---------------- STAIRS ---------------- */
+  {
+    id: "white-marble-stairs", category: "stairs", featured: false, stockConfirmed: false,
+    name: { en: "White Marble Stairs", ur: "سفید ماربل سیڑھیاں" },
+    desc: { en: "White marble treads and risers for bright, elegant staircases.",
+            ur: "روشن اور خوبصورت سیڑھیوں کے لیے سفید ماربل کے اسٹیپ اور رائزر۔" },
+    image: "assets/images/products/white-marble-stairs", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "White marble stairs beside a marble balustrade", ur: "ماربل جنگلے کے ساتھ سفید ماربل سیڑھیاں" }
+  },
+  {
+    id: "granite-stairs", category: "stairs", featured: false, stockConfirmed: false,
+    name: { en: "Granite Stairs", ur: "گرینائٹ سیڑھیاں" },
+    desc: { en: "Granite steps for indoor and outdoor stairs that see heavy use.",
+            ur: "زیادہ استعمال ہونے والی اندرونی اور بیرونی سیڑھیوں کے لیے گرینائٹ اسٹیپ۔" },
+    image: "assets/images/products/granite-stairs", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Grey granite staircase beside a glass railing", ur: "شیشے کی ریلنگ کے ساتھ گرے گرینائٹ سیڑھیاں" }
+  },
+  {
+    id: "sunny-grey-stairs", category: "stairs", featured: false, stockConfirmed: false,
+    name: { en: "Sunny Grey Stairs", ur: "سنی گرے سیڑھیاں" },
+    desc: { en: "Sunny Grey granite steps, a popular light grey choice for stairs.",
+            ur: "سنی گرے گرینائٹ اسٹیپ، سیڑھیوں کے لیے مقبول ہلکا سرمئی انتخاب۔" },
+    image: "assets/images/products/sunny-grey-stairs", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Light grey granite steps", ur: "ہلکے سرمئی گرینائٹ اسٹیپ" }
+  },
+  {
+    id: "stair-step-tiles", category: "stairs", featured: false, stockConfirmed: false,
+    name: { en: "Chips Stairs", ur: "چپس سیڑھیاں" },
+    desc: { en: "Treads and risers in marble, granite or chips.",
+            ur: "ماربل، گرینائٹ یا چپس میں سیڑھیوں کے اسٹیپ اور رائزر۔" },
+    image: "assets/images/products/stair-step-tiles", webp: true,
+    alt: { en: "Stone steps with a speckled chips finish", ur: "دانے دار چپس فنش والی پتھر کی سیڑھیاں" }
   },
 
   /* ---------------- COUNTERS & SPECIAL WORK ---------------- */
