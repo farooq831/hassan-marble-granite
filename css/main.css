@@ -678,3 +678,29 @@ html[lang="ur"] .lightbox__cap { font-size: 1rem; }
 @media (prefers-reduced-motion: reduce) { .hero-in { animation: none; } }
 /* Reserve space until JS renders the cards (prevents layout shift) */
 .product-grid:empty { min-height: 100vh; }
+
+/* ---------- Responsive hardening ---------- */
+/* Grid items may shrink below their content width, so long buttons never widen the page */
+.product-grid > *, .featured__grid > *, .about__grid > *, .contact__grid > *, .services__grid > *, .steps > * { min-width: 0; }
+.btn { max-width: 100%; }
+.btn span { min-width: 0; }
+@media (max-width: 479.98px) { .btn { white-space: normal; text-align: center; line-height: 1.5; } }
+/* Card buttons: tighter tracking so "Inquire on WhatsApp" stays on one line in 2–4 column grids */
+.card .btn { letter-spacing: .1em; padding-inline: .9rem; gap: .5rem; white-space: normal; text-align: center; }
+@media (min-width: 1200px), (min-width: 560px) and (max-width: 767.98px) { .card .btn { font-size: .68rem; letter-spacing: .05em; padding-inline: .7rem; } }
+
+/* Small phones (≤374px): fit brand, language switch and menu button on one row */
+@media (max-width: 374.98px) {
+  .nav { gap: .5rem; }
+  .nav__actions { gap: .45rem; }
+  .brand { gap: .5rem; }
+  .brand__mark, .is-scrolled .brand__mark, .is-solid .brand__mark { width: 34px; height: 34px; }
+  .brand__name { font-size: 1.15rem; letter-spacing: .22em; }
+  .brand__sub { font-size: .5rem; letter-spacing: .22em; }
+  .lang-switch button { min-width: 38px; padding-inline: .45rem; }
+  .burger { width: 42px; height: 42px; }
+}
+
+/* About stamp: keep the rotated diamond inside the page on tablets */
+@media (max-width: 939.98px) { .about__stamp { inset-inline-end: 10px; } }
+@media (max-width: 560px) { .about__stamp { inset-inline-end: 14px; } }
