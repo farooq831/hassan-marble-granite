@@ -66,6 +66,9 @@
       businessName: C.businessName,
       phone: C.phone,
       phoneIntl: C.phoneIntl,
+      phone2: C.phone2,
+      phone2Intl: C.phone2Intl,
+      ownerName: C.ownerName ? pick(C.ownerName) : "",
       address: pick(C.address),
       hours: hours,
       email: C.email
@@ -82,6 +85,8 @@
     $$("[data-requires]").forEach(function (el) { el.hidden = !has[el.getAttribute("data-requires")]; });
 
     $$("a[data-tel]").forEach(function (a) { a.href = "tel:" + C.telLink; });
+    $$("a[data-tel2]").forEach(function (a) { if (C.tel2Link) a.href = "tel:" + C.tel2Link; });
+    $$("a[data-maplink]").forEach(function (a) { a.href = C.mapLinkUrl; });
     $$("a[data-wa]").forEach(function (a) { a.href = waUrl(t(a.getAttribute("data-wa") || "wa.general")); });
     $$("a[data-directions]").forEach(function (a) { a.href = C.directionsUrl; });
     $$("a[data-email]").forEach(function (a) { if (C.email) a.href = "mailto:" + C.email; });
@@ -438,6 +443,10 @@
     };
     if (C.hoursSchema && C.hoursSchema.length) data.openingHours = C.hoursSchema;
     if (C.email) data.email = C.email;
+    if (C.phone2Intl) data.contactPoint = [C.phoneIntl, C.phone2Intl].map(function (tel) {
+      return { "@type": "ContactPoint", telephone: tel, contactType: "sales", areaServed: "PK", availableLanguage: ["English", "Urdu"] };
+    });
+    if (C.ownerName) data.employee = { "@type": "Person", name: C.ownerName.en, jobTitle: "Owner", telephone: C.phone2Intl };
     var same = [C.facebookUrl, C.instagramUrl].filter(Boolean);
     if (same.length) data.sameAs = same;
     var s = document.createElement("script");

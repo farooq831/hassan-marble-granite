@@ -4,20 +4,21 @@ Drop your own photo in **with exactly the same file name** (and `.jpg` extension
 Best size: **900 × 675 px** for product photos (landscape, 4:3), **1200 × 800 px** for the featured project.
 Keep each file under about 300 KB (any free tool such as [squoosh.app](https://squoosh.app) can shrink it).
 
-## 1. Placeholders: please replace these first
+## 1. Replace these first (closest to your own work)
 
-These currently show a dark "Photo coming soon" graphic.
+There are no "Photo coming soon" placeholders left. These six were filled with Pexels stock photos as stand-ins,
+but each describes **your** specific work, so your own photos matter most here.
 
-| File to create | Used for | Notes |
+| File | Used for | Notes |
 |---|---|---|
-| `assets/images/chips-flooring-inlay.jpg` | **Featured Project** section (home page) | Your photo of chips flooring with granite diamonds and the marble flower. After adding it, open `js/products.js` and un-comment the first `GALLERY` entry so it also shows in the gallery. |
-| `assets/images/products/chips-granite-inlay-flooring.jpg` | Product: Chips with Granite Inlays | Can be the same photo as above. |
-| `assets/images/products/chips-marble-floral-flooring.jpg` | Product: Chips with Marble Floral Design | |
-| `assets/images/products/violet-marble-slab.jpg` | Product: Violet Marble | |
-| `assets/images/products/granite-floor-tiles.jpg` | Product: Granite Tiles | |
-| `assets/images/products/marble-skirting.jpg` | Product: Skirting | |
+| `assets/images/chips-flooring-inlay` | **Featured Project** section (home page) | Save your photo as `chips-flooring-inlay.jpg` (1200 × 800) and **delete `chips-flooring-inlay.webp`**. Then un-comment the first `GALLERY` entry in `js/products.js` so it also shows in the gallery. |
+| `products/chips-granite-inlay-flooring` | Product: Chips with Granite Inlays | Can be the same photo as above. |
+| `products/chips-marble-floral-flooring` | Product: Chips with Marble Floral Design | |
+| `products/violet-marble-slab` | Product: Violet Marble | |
+| `products/granite-floor-tiles` | Product: Granite Tiles | |
+| `products/marble-skirting` | Product: Skirting | |
 
-These products already have `webp: false` in `js/products.js`, so a single `.jpg` is all that's needed.
+For the products, follow "How to replace a stock photo" below.
 
 ## 2. Stock photos to replace with your own when you can (recommended)
 

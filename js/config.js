@@ -19,6 +19,12 @@ window.SITE_CONFIG = {
   telLink: "+923115081044",          // used in tel: links (no spaces)
   whatsappNumber: "923115081044",    // used in wa.me links (digits only)
 
+  /* Owner and second number (shown in Contact and the footer) */
+  ownerName: { en: "Yasir Hussain", ur: "یاسر حسین" },
+  phone2: "0333 1579858",
+  phone2Intl: "+92 333 1579858",
+  tel2Link: "+923331579858",
+
   address: {
     en: "Street 589, G-13/2, Islamabad, 44000, Pakistan",
     ur: "گلی 589، ⁦G-13/2⁩، اسلام آباد، 44000، پاکستان",

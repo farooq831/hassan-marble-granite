@@ -22,6 +22,8 @@
       "nav.gallery": "Gallery",
       "nav.about": "About",
       "nav.contact": "Contact",
+      "nav.map": "Location",
+      "nav.mapTitle": "Open our location in Google Maps",
       "nav.whatsapp": "WhatsApp Us",
       "brand.label": "Hassan Marble and Granite, G-13 Islamabad — home",
 
@@ -91,7 +93,7 @@
       "featured.p2": "Granite diamond inlays",
       "featured.p3": "Hand-set marble flower",
       "featured.cta": "Ask About a Design Like This",
-      "featured.alt": "Chips flooring with granite diamond inlays and a marble flower design, by Hassan Marble and Granite",
+      "featured.alt": "Reference photo: chips (terrazzo) corridor floor with a patterned inlay border",
 
       "gallery.eyebrow": "Gallery",
       "gallery.title": "Stone in Every Setting",
@@ -123,6 +125,7 @@
       "contact.title": "Visit Our Yard or Message Us",
       "contact.address": "Address",
       "contact.phone": "Phone & WhatsApp",
+      "contact.owner": "Owner",
       "contact.hours": "Business Hours",
       "contact.area": "Service Area",
       "contact.areaValue": "Islamabad & Rawalpindi",
@@ -148,6 +151,7 @@
       "footer.tagline": "Marble, granite and chips flooring, with custom inlay work.",
       "footer.links": "Quick Links",
       "footer.visit": "Visit Us",
+      "footer.map": "View on Google Maps",
       "footer.rights": "All rights reserved.",
       "footer.credits": "Photo credits",
 
@@ -189,6 +193,8 @@
       "nav.gallery": "گیلری",
       "nav.about": "ہمارے بارے میں",
       "nav.contact": "رابطہ",
+      "nav.map": "لوکیشن",
+      "nav.mapTitle": "ہماری لوکیشن گوگل میپس پر دیکھیں",
       "nav.whatsapp": "واٹس ایپ کریں",
       "brand.label": "حسن ماربل اینڈ گرینائٹ، ⁦G-13⁩ اسلام آباد — ہوم",
 
@@ -258,7 +264,7 @@
       "featured.p2": "گرینائٹ ڈائمنڈ اِنلے",
       "featured.p3": "ہاتھ سے جڑا ماربل کا پھول",
       "featured.cta": "ایسے ڈیزائن کے بارے میں پوچھیں",
-      "featured.alt": "گرینائٹ ڈائمنڈ اِنلے اور ماربل پھول کے ڈیزائن والی چپس فلورنگ، حسن ماربل اینڈ گرینائٹ",
+      "featured.alt": "حوالہ تصویر: راہداری میں ڈیزائن دار اِنلے کے ساتھ چپس (ٹیرازو) فرش",
 
       "gallery.eyebrow": "گیلری",
       "gallery.title": "ہر جگہ پتھر کی خوبصورتی",
@@ -290,6 +296,7 @@
       "contact.title": "ہمارے یارڈ آئیں یا پیغام بھیجیں",
       "contact.address": "پتہ",
       "contact.phone": "فون اور واٹس ایپ",
+      "contact.owner": "مالک",
       "contact.hours": "اوقاتِ کار",
       "contact.area": "سروس ایریا",
       "contact.areaValue": "اسلام آباد اور راولپنڈی",
@@ -315,6 +322,7 @@
       "footer.tagline": "ماربل، گرینائٹ اور چپس فلورنگ، کسٹم اِنلے کام کے ساتھ۔",
       "footer.links": "فوری لنکس",
       "footer.visit": "ہم سے ملیں",
+      "footer.map": "گوگل میپس پر دیکھیں",
       "footer.rights": "جملہ حقوق محفوظ ہیں۔",
       "footer.credits": "تصاویر کے حوالہ جات",
 

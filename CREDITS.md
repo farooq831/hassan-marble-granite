@@ -47,11 +47,16 @@ All file paths are under `assets/images/`. Each image exists as `.webp` and `.jp
 | 30 | `products/granite-kitchen-countertop` | [pexels.com/photo/photograph-of-a-black-and-white-kitchen-7028069](https://www.pexels.com/photo/photograph-of-a-black-and-white-kitchen-7028069/) | Curtis Adams | Pexels License |
 | 31 | `products/marble-vanity-top` | [pexels.com/photo/a-modern-bathroom-with-marble-wall-7166635](https://www.pexels.com/photo/a-modern-bathroom-with-marble-wall-7166635/) | Max Vakhtbovych | Pexels License |
 | 32 | `products/marble-inlay-medallion (+ -1200, also in gallery)` | [pexels.com/photo/marble-floor-design-in-siena-cathedral-italy-36919136](https://www.pexels.com/photo/marble-floor-design-in-siena-cathedral-italy-36919136/) | ommy (Pexels profile) | Pexels License |
+| 33 | `chips-flooring-inlay` (Featured Project) | [pexels.com/photo/29132552](https://www.pexels.com/photo/29132552/) | Atul Sandhu | Pexels License |
+| 34 | `products/chips-granite-inlay-flooring` | [pexels.com/photo/4977451](https://www.pexels.com/photo/4977451/) | Karola G | Pexels License |
+| 35 | `products/chips-marble-floral-flooring` | [pexels.com/photo/37969730](https://www.pexels.com/photo/37969730/) | Suhasini Kakad | Pexels License |
+| 36 | `products/violet-marble-slab` | [pexels.com/photo/9990273](https://www.pexels.com/photo/9990273/) | krakograff-textures (Pexels profile) | Pexels License |
+| 37 | `products/granite-floor-tiles` | [pexels.com/photo/11255408](https://www.pexels.com/photo/11255408/) | seamlesstextures (Pexels profile) | Pexels License |
+| 38 | `products/marble-skirting` | [pexels.com/photo/37042958](https://www.pexels.com/photo/37042958/) | esra-akin (Pexels profile) | Pexels License |
 
 ## Generated (not photographs)
 
 - Logo, favicon and app icons (`assets/logo.svg`, `assets/logo-light.svg`, `favicon.svg`, `favicon.ico`, `assets/icons/*`) — drawn for this site.
-- Placeholder images marked “Photo coming soon” — plain generated graphics, listed in `IMAGES_TO_REPLACE.md`.
 - Marble textures in section backgrounds — pure CSS gradients.
 
 ## Fonts

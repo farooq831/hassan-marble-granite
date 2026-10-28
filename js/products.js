@@ -80,8 +80,8 @@ window.PRODUCTS = [
     name: { en: "Violet Marble", ur: "وائلٹ ماربل" },
     desc: { en: "Violet-toned marble for distinctive accents and inlay details.",
             ur: "بنفشی رنگ کا ماربل، منفرد نمایاں حصوں اور اِنلے کی تفصیل کے لیے۔" },
-    image: "assets/images/products/violet-marble-slab", webp: false, /* PLACEHOLDER photo — replace */
-    alt: { en: "Violet marble (photo coming soon)", ur: "وائلٹ ماربل (تصویر جلد)" }
+    image: "assets/images/products/violet-marble-slab", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "White marble with violet and grey veins", ur: "بنفشی اور سرمئی دھاریوں والا سفید ماربل" }
   },
   {
     id: "black-marble", category: "marble", featured: false, stockConfirmed: false,
@@ -156,16 +156,16 @@ window.PRODUCTS = [
     name: { en: "Chips with Granite Inlays", ur: "گرینائٹ اِنلے کے ساتھ چپس" },
     desc: { en: "Chips flooring set with granite diamonds, borders or patterns.",
             ur: "گرینائٹ کے ڈائمنڈ، بارڈر یا نقش کے ساتھ چپس فلورنگ۔" },
-    image: "assets/images/products/chips-granite-inlay-flooring", webp: false, /* PLACEHOLDER photo — replace */
-    alt: { en: "Chips flooring with granite inlays (photo coming soon)", ur: "گرینائٹ اِنلے کے ساتھ چپس فلورنگ (تصویر جلد)" }
+    image: "assets/images/products/chips-granite-inlay-flooring", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Grey and white chips (terrazzo) flooring close-up", ur: "سرمئی اور سفید چپس (ٹیرازو) فلورنگ کا قریبی منظر" }
   },
   {
     id: "chips-marble-floral", category: "chips", featured: false, stockConfirmed: false,
     name: { en: "Chips with Marble Floral Design", ur: "ماربل پھول دار ڈیزائن کے ساتھ چپس" },
     desc: { en: "Chips flooring with a hand-set marble flower or medallion.",
             ur: "ہاتھ سے جڑے ماربل کے پھول یا میڈلین کے ساتھ چپس فلورنگ۔" },
-    image: "assets/images/products/chips-marble-floral-flooring", webp: false, /* PLACEHOLDER photo — replace */
-    alt: { en: "Chips flooring with a marble floral design (photo coming soon)", ur: "ماربل پھول دار ڈیزائن کے ساتھ چپس فلورنگ (تصویر جلد)" }
+    image: "assets/images/products/chips-marble-floral-flooring", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Polished lobby floor with a marble inlay pattern", ur: "ماربل اِنلے ڈیزائن والا پالش شدہ لابی فرش" }
   },
 
   /* ---------------- ONYX ---------------- */
@@ -192,8 +192,8 @@ window.PRODUCTS = [
     name: { en: "Granite Tiles", ur: "گرینائٹ ٹائلز" },
     desc: { en: "Granite tiles for durable floors and high-traffic areas.",
             ur: "پائیدار فرش اور زیادہ آمد و رفت والی جگہوں کے لیے گرینائٹ ٹائلز۔" },
-    image: "assets/images/products/granite-floor-tiles", webp: false, /* PLACEHOLDER photo — replace */
-    alt: { en: "Granite floor tiles (photo coming soon)", ur: "گرینائٹ فلور ٹائلز (تصویر جلد)" }
+    image: "assets/images/products/granite-floor-tiles", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Grey speckled granite surface", ur: "سرمئی دانے دار گرینائٹ کی سطح" }
   },
   {
     id: "stair-step-tiles", category: "tiles", featured: false, stockConfirmed: false,
@@ -208,8 +208,8 @@ window.PRODUCTS = [
     name: { en: "Skirting", ur: "اسکرٹنگ" },
     desc: { en: "Matching stone skirting to finish floors neatly.",
             ur: "فرش کو صاف ستھری فنشنگ دینے کے لیے ہم رنگ پتھر کی اسکرٹنگ۔" },
-    image: "assets/images/products/marble-skirting", webp: false, /* PLACEHOLDER photo — replace */
-    alt: { en: "Stone skirting (photo coming soon)", ur: "پتھر کی اسکرٹنگ (تصویر جلد)" }
+    image: "assets/images/products/marble-skirting", webp: true, /* stock reference photo (Pexels) — replace with your own */
+    alt: { en: "Marble stairs with matching marble skirting along the walls", ur: "دیواروں کے ساتھ ماربل اسکرٹنگ والی ماربل سیڑھیاں" }
   },
 
   /* ---------------- COUNTERS & SPECIAL WORK ---------------- */
