@@ -1,6 +1,5 @@
 # robots.txt — Hassan Marble and Granite
-# PLACEHOLDER: replace USERNAME and REPO in the Sitemap line with your live address.
 User-agent: *
 Allow: /
 
-Sitemap: https://USERNAME.github.io/REPO/sitemap.xml
+Sitemap: https://farooq831.github.io/hassan-marble-granite/sitemap.xml

@@ -49,9 +49,9 @@ window.SITE_CONFIG = {
   facebookUrl: "",
   instagramUrl: "",
 
-  /* >>> PLACEHOLDER <<<  Your live site address, with a trailing slash.
+  /* Your live site address, with a trailing slash.
      After publishing on GitHub Pages, change to e.g.
      "https://yourusername.github.io/hassan-marble-granite/"
      (also update the canonical / og:url tags and sitemap.xml — see README) */
-  siteBaseUrl: "https://USERNAME.github.io/REPO/"
+  siteBaseUrl: "https://farooq831.github.io/hassan-marble-granite/"
 };
