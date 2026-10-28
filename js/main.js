@@ -105,6 +105,7 @@
       '<button type="button" class="card__media" data-product-index="' + i + '" aria-label="' + esc(t("product.view", { product: name })) + '">' +
         cardPicture(p, pick(p.alt)) +
         '<span class="card__zoom">' + icon("i-zoom") + "</span>" +
+        (p.ownPhoto ? '<span class="card__badge">' + esc(t("product.ownPhoto")) + "</span>" : "") +
       "</button>" +
       '<div class="card__body">' +
         '<span class="card__cat">' + esc(t("cat." + p.category)) + "</span>" +
@@ -179,10 +180,15 @@
   }
 
   /* 4. GALLERY -------------------------------------------------------- */
+  /* [data-gallery] = reference photos, [data-gallery="yard"] = our own yard photos */
+  function galleryList(el) {
+    return el.getAttribute("data-gallery") === "yard" ? (window.YARD || []) : GALLERY;
+  }
   function renderGallery() {
-    var el = $("[data-gallery]");
-    if (!el) return;
-    el.innerHTML = GALLERY.map(function (g, i) {
+    $$("[data-gallery]").forEach(renderGalleryEl);
+  }
+  function renderGalleryEl(el) {
+    el.innerHTML = galleryList(el).map(function (g, i) {
       var cap = pick(g.caption);
       return '<button type="button" class="gallery__item reveal" style="--d:' + (i % 4) * 0.08 + 's" data-gallery-index="' + i +
         '" aria-label="' + esc(t("gallery.open", { caption: cap })) + '">' +
@@ -192,15 +198,15 @@
     observeReveal(el);
   }
   function setupGallery() {
-    var el = $("[data-gallery]");
-    if (!el) return;
-    el.addEventListener("click", function (e) {
-      var b = e.target.closest("[data-gallery-index]");
-      if (!b) return;
-      var items = GALLERY.map(function (g) {
-        return { base: g.full, webp: g.webp, alt: pick(g.caption), caption: pick(g.caption) };
+    $$("[data-gallery]").forEach(function (el) {
+      el.addEventListener("click", function (e) {
+        var b = e.target.closest("[data-gallery-index]");
+        if (!b) return;
+        var items = galleryList(el).map(function (g) {
+          return { base: g.full, webp: g.webp, alt: pick(g.caption), caption: pick(g.caption) };
+        });
+        Lightbox.open(items, +b.getAttribute("data-gallery-index"), b);
       });
-      Lightbox.open(items, +b.getAttribute("data-gallery-index"), b);
     });
   }
 

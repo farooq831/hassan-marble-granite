@@ -4,6 +4,8 @@ Drop your own photo in **with exactly the same file name** (and `.jpg` extension
 Best size: **900 × 675 px** for product photos (landscape, 4:3), **1200 × 800 px** for the featured project.
 Keep each file under about 300 KB (any free tool such as [squoosh.app](https://squoosh.app) can shrink it).
 
+> **Update:** the Ready Stock section and five product cards (Sunny Grey, Ziarat Grey, Ziarat White, Sunny Grey & White Skirting, Black Marble Patti) now use **your own yard photos**. To add more, save them in `assets/images/yard/` and add an entry to the `YARD` list at the bottom of `js/products.js`.
+
 ## 1. Replace these first (closest to your own work)
 
 There are no "Photo coming soon" placeholders left. These six were filled with Pexels stock photos as stand-ins,

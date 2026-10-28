@@ -28,6 +28,30 @@ window.CATEGORIES = ["marble", "granite", "chips", "onyx", "tiles", "borders", "
 window.PRODUCTS = [
   /* ---------------- MARBLE ---------------- */
   {
+    id: "sunny-grey-marble", category: "marble", featured: true, stockConfirmed: true, ownPhoto: true,
+    name: { en: "Sunny Grey Marble", ur: "سنی گرے ماربل" },
+    desc: { en: "In stock at our G-13 yard. Light grey marble with soft veins, for floors, stairs and skirting.",
+            ur: "ہمارے G-13 یارڈ میں دستیاب۔ ہلکی دھاریوں والا ہلکا سرمئی ماربل، فرش، سیڑھیوں اور اسکرٹنگ کے لیے۔" },
+    image: "assets/images/products/sunny-grey-marble-stock", webp: true, /* real photo from our yard */
+    alt: { en: "Rows of grey marble tiles stacked at our G-13 yard", ur: "ہمارے G-13 یارڈ میں قطاروں میں رکھی سرمئی ماربل ٹائلز" }
+  },
+  {
+    id: "ziarat-grey-marble", category: "marble", featured: true, stockConfirmed: true, ownPhoto: true,
+    name: { en: "Ziarat Grey Marble", ur: "زیارت گرے ماربل" },
+    desc: { en: "In stock. Ziarat Grey marble with darker grey veining, a durable everyday floor.",
+            ur: "دستیاب۔ گہری سرمئی دھاریوں والا زیارت گرے ماربل، روزمرہ کے فرش کے لیے پائیدار۔" },
+    image: "assets/images/products/ziarat-grey-marble-stock", webp: true, /* real photo from our yard */
+    alt: { en: "Long stacks of grey-veined marble outside our shop", ur: "ہماری دکان کے باہر سرمئی دھاری دار ماربل کے لمبے ڈھیر" }
+  },
+  {
+    id: "ziarat-white-marble", category: "marble", featured: true, stockConfirmed: true, ownPhoto: true,
+    name: { en: "Ziarat White Marble", ur: "زیارت وائٹ ماربل" },
+    desc: { en: "In stock. Ziarat White marble tiles and slabs for bright floors and walls.",
+            ur: "دستیاب۔ روشن فرش اور دیواروں کے لیے زیارت وائٹ ماربل ٹائلز اور سلیب۔" },
+    image: "assets/images/products/ziarat-white-marble-stock", webp: true, /* real photo from our yard */
+    alt: { en: "Marble tiles and slabs standing in our yard", ur: "ہمارے یارڈ میں کھڑی ماربل ٹائلز اور سلیب" }
+  },
+  {
     id: "white-marble", category: "marble", featured: true, stockConfirmed: false,
     name: { en: "White Marble", ur: "سفید ماربل" },
     desc: { en: "Classic white marble with soft grey veining, suited to floors, walls and stairs.",
@@ -230,6 +254,22 @@ window.PRODUCTS = [
 
   /* ---------------- BORDERS, PATTI & SKIRTING ---------------- */
   {
+    id: "sunny-grey-white-skirting", category: "borders", featured: true, stockConfirmed: true, ownPhoto: true,
+    name: { en: "Sunny Grey & White Skirting", ur: "سنی گرے اور وائٹ اسکرٹنگ" },
+    desc: { en: "In stock. Ready-cut Sunny Grey and White marble skirting and patti strips.",
+            ur: "دستیاب۔ سنی گرے اور وائٹ ماربل کی تیار کٹی اسکرٹنگ اور پٹیاں۔" },
+    image: "assets/images/products/skirting-stock", webp: true, /* real photo from our yard */
+    alt: { en: "Marble skirting strips stacked in our shop", ur: "ہماری دکان میں رکھی ماربل اسکرٹنگ کی پٹیاں" }
+  },
+  {
+    id: "black-marble-patti", category: "borders", featured: false, stockConfirmed: true, ownPhoto: true,
+    name: { en: "Black Marble Patti", ur: "بلیک ماربل پٹی" },
+    desc: { en: "In stock. Black marble patti (strips) for borders, lines and contrast.",
+            ur: "دستیاب۔ بارڈر، لائنوں اور کنٹراسٹ کے لیے بلیک ماربل پٹی۔" },
+    image: "assets/images/products/black-marble-patti", webp: true, /* real photo from our yard */
+    alt: { en: "Black marble patti strips on our sample wall", ur: "ہماری سیمپل وال پر بلیک ماربل پٹیاں" }
+  },
+  {
     id: "marble-borders", category: "borders", featured: false, stockConfirmed: false,
     name: { en: "Marble Borders", ur: "ماربل بارڈر" },
     desc: { en: "Marble borders cut to any width and shape: straight bands, corners, curves and frames around rooms.",
@@ -256,8 +296,8 @@ window.PRODUCTS = [
   {
     id: "sunny-grey-skirting", category: "borders", featured: false, stockConfirmed: false,
     name: { en: "Sunny Grey Skirting", ur: "سنی گرے اسکرٹنگ" },
-    desc: { en: "Sunny Grey granite skirting to match grey granite floors and stairs.",
-            ur: "گرے گرینائٹ فرش اور سیڑھیوں سے میل کھاتی سنی گرے گرینائٹ اسکرٹنگ۔" },
+    desc: { en: "Sunny Grey marble skirting to match Sunny Grey floors and stairs.",
+            ur: "سنی گرے فرش اور سیڑھیوں سے میل کھاتی سنی گرے ماربل اسکرٹنگ۔" },
     image: "assets/images/products/sunny-grey-skirting", webp: true, /* stock reference photo (Pexels) — replace with your own */
     alt: { en: "Light grey speckled granite surface", ur: "ہلکے سرمئی دانے دار گرینائٹ کی سطح" }
   },
@@ -290,8 +330,8 @@ window.PRODUCTS = [
   {
     id: "sunny-grey-stairs", category: "stairs", featured: false, stockConfirmed: false,
     name: { en: "Sunny Grey Stairs", ur: "سنی گرے سیڑھیاں" },
-    desc: { en: "Sunny Grey granite steps, a popular light grey choice for stairs.",
-            ur: "سنی گرے گرینائٹ اسٹیپ، سیڑھیوں کے لیے مقبول ہلکا سرمئی انتخاب۔" },
+    desc: { en: "Sunny Grey marble steps, a popular light grey choice for stairs.",
+            ur: "سنی گرے ماربل اسٹیپ، سیڑھیوں کے لیے مقبول ہلکا سرمئی انتخاب۔" },
     image: "assets/images/products/sunny-grey-stairs", webp: true, /* stock reference photo (Pexels) — replace with your own */
     alt: { en: "Light grey granite steps", ur: "ہلکے سرمئی گرینائٹ اسٹیپ" }
   },
@@ -368,4 +408,29 @@ window.GALLERY = [
     caption: { en: "Marble bathroom with vanity", ur: "وینٹی کے ساتھ ماربل باتھ روم" } },
   { thumb: "assets/images/gallery/marble-floor-hallway-640", full: "assets/images/gallery/marble-floor-hallway", webp: true, w: 640, h: 853,
     caption: { en: "Marble flooring in a modern hallway", ur: "جدید ہال وے میں ماربل فلورنگ" } }
+];
+
+/* =====================================================================
+   YARD — real photos from our own yard and showroom (G-13/2).
+   Shown in the "Ready Stock" section on the home page.
+   ===================================================================== */
+window.YARD = [
+  { thumb: "assets/images/yard/shop-front-640", full: "assets/images/yard/shop-front", webp: true, w: 640, h: 300,
+    caption: { en: "Our shop and yard, Street 589, G-13/2", ur: "ہماری دکان اور یارڈ، گلی 589، ⁦G-13/2⁩" } },
+  { thumb: "assets/images/yard/marble-stock-rows-640", full: "assets/images/yard/marble-stock-rows", webp: true, w: 640, h: 329,
+    caption: { en: "Rows of marble tiles in stock", ur: "اسٹاک میں ماربل ٹائلز کی قطاریں" } },
+  { thumb: "assets/images/yard/samples-wall-2-640", full: "assets/images/yard/samples-wall-2", webp: true, w: 640, h: 360,
+    caption: { en: "Marble and granite samples in our showroom", ur: "ہمارے شو روم میں ماربل اور گرینائٹ کے نمونے" } },
+  { thumb: "assets/images/yard/slabs-in-yard-640", full: "assets/images/yard/slabs-in-yard", webp: true, w: 640, h: 717,
+    caption: { en: "Marble slabs and tiles in our yard", ur: "ہمارے یارڈ میں ماربل سلیب اور ٹائلز" } },
+  { thumb: "assets/images/yard/stock-and-shop-640", full: "assets/images/yard/stock-and-shop", webp: true, w: 640, h: 280,
+    caption: { en: "Ready stock outside our shop", ur: "ہماری دکان کے باہر تیار اسٹاک" } },
+  { thumb: "assets/images/yard/skirting-patti-stock-640", full: "assets/images/yard/skirting-patti-stock", webp: true, w: 640, h: 272,
+    caption: { en: "Skirting and patti in stock, plus cement and bond", ur: "اسٹاک میں اسکرٹنگ اور پٹی، ساتھ سیمنٹ اور بانڈ" } },
+  { thumb: "assets/images/yard/samples-wall-640", full: "assets/images/yard/samples-wall", webp: true, w: 640, h: 433,
+    caption: { en: "Sample wall with granite, marble and black patti", ur: "گرینائٹ، ماربل اور بلیک پٹی کے نمونوں کی دیوار" } },
+  { thumb: "assets/images/yard/stack-edge", full: "assets/images/yard/stack-edge", webp: true, w: 469, h: 1079,
+    caption: { en: "Close-up of a marble tile stack", ur: "ماربل ٹائلز کے ڈھیر کا قریبی منظر" } },
+  { thumb: "assets/images/yard/signboard-640", full: "assets/images/yard/signboard", webp: true, w: 640, h: 361,
+    caption: { en: "Hassan Marbles & Granite signboard, G-13", ur: "حسن ماربلز اینڈ گرینائٹ کا بورڈ، ⁦G-13⁩" } }
 ];
