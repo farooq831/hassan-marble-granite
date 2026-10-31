@@ -1,5 +1,5 @@
 /* =====================================================================
-   Hassan Marble and Granite — main script (vanilla JS, no libraries)
+   Hassan Marble and Tiles — main script (vanilla JS, no libraries)
    ---------------------------------------------------------------------
    1. Helpers
    2. Config binding (phone, WhatsApp, map, hours… from js/config.js)
@@ -429,7 +429,7 @@
       "@type": "HomeAndConstructionBusiness",
       "@id": base + "#business",
       name: C.businessName,
-      alternateName: "Hassan Marble and Granite G-13 Islamabad",
+      alternateName: "Hassan Marble and Tiles G-13 Islamabad",
       description: "Marble, granite and chips (terrazzo) flooring supplier with custom inlay work, based in G-13/2, Islamabad, serving Islamabad and Rawalpindi.",
       url: base,
       image: base + "assets/images/og-image.jpg",

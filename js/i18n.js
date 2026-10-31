@@ -25,19 +25,19 @@
       "nav.map": "Location",
       "nav.mapTitle": "Open our location in Google Maps",
       "nav.whatsapp": "WhatsApp Us",
-      "brand.label": "Hassan Marble and Granite, G-13 Islamabad — home",
+      "brand.label": "Hassan Marble and Tiles, G-13 Islamabad — home",
 
       "hero.eyebrow": "Based in G-13, Islamabad",
       "hero.title1": "Timeless Stone.",
       "hero.title2": "Crafted for Your Space.",
-      "hero.sub": "Marble • Granite • Chips Flooring | G-13, Islamabad",
+      "hero.sub": "Marble • Granite • Chips • Tiles | G-13, Islamabad",
       "hero.lead": "Quality marble, granite and chips flooring, with custom inlay work — supplied across Islamabad and Rawalpindi.",
       "hero.cta1": "Chat on WhatsApp",
       "hero.cta2": "View Collection",
       "hero.scroll": "Scroll",
       "hero.alt": "Luxurious marble corridor with polished floor and chandeliers",
 
-      "trust.heading": "Why choose Hassan Marble and Granite",
+      "trust.heading": "Why choose Hassan Marble and Tiles",
       "trust.1": "Marble & Granite Supplier",
       "trust.1d": "Stone for floors, walls, stairs and tops",
       "trust.2": "Custom Inlay Designs",
@@ -104,7 +104,7 @@
 
       "about.eyebrow": "About Us",
       "about.title": "A Stone Supplier Rooted in G-13, Islamabad",
-      "about.p1": "Hassan Marble and Granite is a marble and granite supplier based on Street 589, G-13/2, Islamabad. We supply marble, granite and chips flooring, and take on custom inlay work — from simple borders to detailed floral designs.",
+      "about.p1": "Hassan Marble and Tiles is a marble and granite supplier based on Street 589, G-13/2, Islamabad. We supply marble, granite and chips flooring, and take on custom inlay work — from simple borders to detailed floral designs.",
       "about.p2": "We serve homes, mosques, offices and commercial spaces across Islamabad and Rawalpindi. Visit our yard to see the stone in person, or send us a message on WhatsApp — we are happy to help you choose.",
       "about.note": "Not to be confused with other businesses of a similar name — we are located in G-13/2, Islamabad.",
       "about.tag1": "Homes",
@@ -136,7 +136,7 @@
       "contact.call": "Call Now",
       "contact.wa": "WhatsApp",
       "contact.directions": "Get Directions",
-      "contact.mapTitle": "Map showing Hassan Marble and Granite, Street 589, G-13/2, Islamabad",
+      "contact.mapTitle": "Map showing Hassan Marble and Tiles, Street 589, G-13/2, Islamabad",
 
       "form.title": "Send an Enquiry",
       "form.lead": "Fill this in and WhatsApp will open with your message ready to send.",
@@ -154,6 +154,7 @@
       "footer.links": "Quick Links",
       "footer.visit": "Visit Us",
       "footer.map": "View on Google Maps",
+      "footer.facebook": "Follow us on Facebook",
       "footer.rights": "All rights reserved.",
       "footer.credits": "Photo credits",
 
@@ -191,11 +192,11 @@
       "yard.s8": "Cement & Tile Bond",
       "yard.cta": "Ask What's in Stock Today",
       "product.ownPhoto": "Real photo",
-      "wa.stock": "Hello Hassan Marble and Granite, which marble is in stock today at your G-13 yard?",
-      "wa.general": "Hello Hassan Marble and Granite, I would like to know more about your marble and granite.",
-      "wa.product": "Hello Hassan Marble and Granite, I want to ask about {product}.",
-      "wa.featured": "Hello Hassan Marble and Granite, I want to ask about chips flooring with granite diamond inlays and a marble flower design.",
-      "wa.form": "Hello Hassan Marble and Granite,\nName: {name}\nPhone: {phone}\nProduct: {product}\nMessage: {message}"
+      "wa.stock": "Hello Hassan Marble and Tiles, which marble is in stock today at your G-13 yard?",
+      "wa.general": "Hello Hassan Marble and Tiles, I would like to know more about your marble and granite.",
+      "wa.product": "Hello Hassan Marble and Tiles, I want to ask about {product}.",
+      "wa.featured": "Hello Hassan Marble and Tiles, I want to ask about chips flooring with granite diamond inlays and a marble flower design.",
+      "wa.form": "Hello Hassan Marble and Tiles,\nName: {name}\nPhone: {phone}\nProduct: {product}\nMessage: {message}"
     },
 
     ur: {
@@ -213,19 +214,19 @@
       "nav.map": "لوکیشن",
       "nav.mapTitle": "ہماری لوکیشن گوگل میپس پر دیکھیں",
       "nav.whatsapp": "واٹس ایپ کریں",
-      "brand.label": "حسن ماربل اینڈ گرینائٹ، ⁦G-13⁩ اسلام آباد — ہوم",
+      "brand.label": "حسن ماربل اینڈ ٹائیلز، ⁦G-13⁩ اسلام آباد — ہوم",
 
       "hero.eyebrow": "⁦G-13⁩، اسلام آباد میں قائم",
       "hero.title1": "لازوال پتھر،",
       "hero.title2": "آپ کی جگہ کے لیے تراشا گیا۔",
-      "hero.sub": "ماربل • گرینائٹ • چپس فلورنگ | ⁦G-13⁩، اسلام آباد",
+      "hero.sub": "ماربل • گرینائٹ • چپس • ٹائلز | ⁦G-13⁩، اسلام آباد",
       "hero.lead": "معیاری ماربل، گرینائٹ اور چپس فلورنگ، کسٹم اِنلے کام کے ساتھ — اسلام آباد اور راولپنڈی بھر میں۔",
       "hero.cta1": "واٹس ایپ پر بات کریں",
       "hero.cta2": "کلیکشن دیکھیں",
       "hero.scroll": "نیچے دیکھیں",
       "hero.alt": "چمکدار فرش اور فانوسوں والی شاندار ماربل راہداری",
 
-      "trust.heading": "حسن ماربل اینڈ گرینائٹ کا انتخاب کیوں",
+      "trust.heading": "حسن ماربل اینڈ ٹائیلز کا انتخاب کیوں",
       "trust.1": "ماربل اور گرینائٹ سپلائر",
       "trust.1d": "فرش، دیواروں، سیڑھیوں اور ٹاپس کے لیے پتھر",
       "trust.2": "کسٹم اِنلے ڈیزائن",
@@ -292,7 +293,7 @@
 
       "about.eyebrow": "ہمارے بارے میں",
       "about.title": "⁦G-13⁩، اسلام آباد میں قائم پتھر سپلائر",
-      "about.p1": "حسن ماربل اینڈ گرینائٹ گلی 589، ⁦G-13/2⁩، اسلام آباد میں قائم ماربل اور گرینائٹ کا سپلائر ہے۔ ہم ماربل، گرینائٹ اور چپس فلورنگ فراہم کرتے ہیں اور کسٹم اِنلے کا کام بھی کرتے ہیں — سادہ بارڈر سے لے کر باریک پھول دار ڈیزائن تک۔",
+      "about.p1": "حسن ماربل اینڈ ٹائیلز گلی 589، ⁦G-13/2⁩، اسلام آباد میں قائم ماربل اور گرینائٹ کا سپلائر ہے۔ ہم ماربل، گرینائٹ اور چپس فلورنگ فراہم کرتے ہیں اور کسٹم اِنلے کا کام بھی کرتے ہیں — سادہ بارڈر سے لے کر باریک پھول دار ڈیزائن تک۔",
       "about.p2": "ہم اسلام آباد اور راولپنڈی بھر میں گھروں، مساجد، دفاتر اور کمرشل جگہوں کے لیے کام کرتے ہیں۔ پتھر خود دیکھنے کے لیے ہمارے یارڈ تشریف لائیں یا واٹس ایپ پر پیغام بھیجیں — انتخاب میں آپ کی مدد کر کے ہمیں خوشی ہوگی۔",
       "about.note": "ملتے جلتے نام کے دیگر کاروبار سے مختلف — ہم ⁦G-13/2⁩، اسلام آباد میں واقع ہیں۔",
       "about.tag1": "گھر",
@@ -324,7 +325,7 @@
       "contact.call": "ابھی کال کریں",
       "contact.wa": "واٹس ایپ",
       "contact.directions": "راستہ دیکھیں",
-      "contact.mapTitle": "نقشہ: حسن ماربل اینڈ گرینائٹ، گلی 589، ⁦G-13/2⁩، اسلام آباد",
+      "contact.mapTitle": "نقشہ: حسن ماربل اینڈ ٹائیلز، گلی 589، ⁦G-13/2⁩، اسلام آباد",
 
       "form.title": "انکوائری بھیجیں",
       "form.lead": "یہ فارم پُر کریں، آپ کا پیغام تیار حالت میں واٹس ایپ میں کھل جائے گا۔",
@@ -342,6 +343,7 @@
       "footer.links": "فوری لنکس",
       "footer.visit": "ہم سے ملیں",
       "footer.map": "گوگل میپس پر دیکھیں",
+      "footer.facebook": "فیس بک پر ہمیں فالو کریں",
       "footer.rights": "جملہ حقوق محفوظ ہیں۔",
       "footer.credits": "تصاویر کے حوالہ جات",
 
@@ -378,11 +380,11 @@
       "yard.s8": "سیمنٹ اور ٹائل بانڈ",
       "yard.cta": "آج کا اسٹاک معلوم کریں",
       "product.ownPhoto": "اصل تصویر",
-      "wa.stock": "السلام علیکم حسن ماربل اینڈ گرینائٹ، آج آپ کے G-13 یارڈ میں کون سا ماربل دستیاب ہے؟",
-      "wa.general": "السلام علیکم حسن ماربل اینڈ گرینائٹ، مجھے آپ کے ماربل اور گرینائٹ کے بارے میں معلومات چاہئیں۔",
-      "wa.product": "السلام علیکم حسن ماربل اینڈ گرینائٹ، مجھے {product} کے بارے میں معلومات چاہئیں۔",
-      "wa.featured": "السلام علیکم حسن ماربل اینڈ گرینائٹ، مجھے گرینائٹ ڈائمنڈ اِنلے اور ماربل پھول والے چپس فرش کے بارے میں معلومات چاہئیں۔",
-      "wa.form": "السلام علیکم حسن ماربل اینڈ گرینائٹ،\nنام: {name}\nفون: {phone}\nپروڈکٹ: {product}\nپیغام: {message}"
+      "wa.stock": "السلام علیکم حسن ماربل اینڈ ٹائیلز، آج آپ کے G-13 یارڈ میں کون سا ماربل دستیاب ہے؟",
+      "wa.general": "السلام علیکم حسن ماربل اینڈ ٹائیلز، مجھے آپ کے ماربل اور گرینائٹ کے بارے میں معلومات چاہئیں۔",
+      "wa.product": "السلام علیکم حسن ماربل اینڈ ٹائیلز، مجھے {product} کے بارے میں معلومات چاہئیں۔",
+      "wa.featured": "السلام علیکم حسن ماربل اینڈ ٹائیلز، مجھے گرینائٹ ڈائمنڈ اِنلے اور ماربل پھول والے چپس فرش کے بارے میں معلومات چاہئیں۔",
+      "wa.form": "السلام علیکم حسن ماربل اینڈ ٹائیلز،\nنام: {name}\nفون: {phone}\nپروڈکٹ: {product}\nپیغام: {message}"
     }
   };
 

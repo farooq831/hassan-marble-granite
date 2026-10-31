@@ -1,4 +1,4 @@
-# robots.txt — Hassan Marble and Granite
+# robots.txt — Hassan Marble and Tiles
 User-agent: *
 Allow: /
 

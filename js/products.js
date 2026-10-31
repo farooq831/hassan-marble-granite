@@ -415,8 +415,8 @@ window.GALLERY = [
    Shown in the "Ready Stock" section on the home page.
    ===================================================================== */
 window.YARD = [
-  { thumb: "assets/images/yard/shop-front-640", full: "assets/images/yard/shop-front", webp: true, w: 640, h: 300,
-    caption: { en: "Our shop and yard, Street 589, G-13/2", ur: "ہماری دکان اور یارڈ، گلی 589، ⁦G-13/2⁩" } },
+  { thumb: "assets/images/yard/shop-signboard-640", full: "assets/images/yard/shop-signboard", webp: true, w: 640, h: 853,
+    caption: { en: "Our shop and signboard, Street 589, G-13/2", ur: "ہماری دکان اور بورڈ، گلی 589، ⁦G-13/2⁩" } },
   { thumb: "assets/images/yard/marble-stock-rows-640", full: "assets/images/yard/marble-stock-rows", webp: true, w: 640, h: 329,
     caption: { en: "Rows of marble tiles in stock", ur: "اسٹاک میں ماربل ٹائلز کی قطاریں" } },
   { thumb: "assets/images/yard/samples-wall-2-640", full: "assets/images/yard/samples-wall-2", webp: true, w: 640, h: 360,
@@ -430,7 +430,5 @@ window.YARD = [
   { thumb: "assets/images/yard/samples-wall-640", full: "assets/images/yard/samples-wall", webp: true, w: 640, h: 433,
     caption: { en: "Sample wall with granite, marble and black patti", ur: "گرینائٹ، ماربل اور بلیک پٹی کے نمونوں کی دیوار" } },
   { thumb: "assets/images/yard/stack-edge", full: "assets/images/yard/stack-edge", webp: true, w: 469, h: 1079,
-    caption: { en: "Close-up of a marble tile stack", ur: "ماربل ٹائلز کے ڈھیر کا قریبی منظر" } },
-  { thumb: "assets/images/yard/signboard-640", full: "assets/images/yard/signboard", webp: true, w: 640, h: 361,
-    caption: { en: "Hassan Marbles & Granite signboard, G-13", ur: "حسن ماربلز اینڈ گرینائٹ کا بورڈ، ⁦G-13⁩" } }
+    caption: { en: "Close-up of a marble tile stack", ur: "ماربل ٹائلز کے ڈھیر کا قریبی منظر" } }
 ];

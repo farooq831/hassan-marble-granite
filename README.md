@@ -1,6 +1,6 @@
-# Hassan Marble and Granite — Website
+# Hassan Marble and Tiles — Website
 
-Static website for **Hassan Marble and Granite**, Street 589, G-13/2, Islamabad.
+Static website for **Hassan Marble and Tiles**, Street 589, G-13/2, Islamabad.
 It uses plain HTML, CSS and JavaScript, with no frameworks, no build step and no server code.
 It works by opening `index.html` directly or on any free static host such as GitHub Pages.
 

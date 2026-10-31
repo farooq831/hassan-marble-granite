@@ -1,4 +1,4 @@
-# Photo Credits — Hassan Marble and Granite website
+# Photo Credits — Hassan Marble and Tiles website
 
 All photographs below are **real photographs** downloaded from **[Pexels](https://www.pexels.com)** and used under the
 **[Pexels License](https://www.pexels.com/license/)**: free for personal and commercial use, no attribution required
@@ -8,7 +8,7 @@ All photographs below are **real photographs** downloaded from **[Pexels](https:
 > search listings and downloaded from the Pexels image CDN. Photographer names marked “(Pexels profile)” are the
 > photographer's Pexels username as shown in the download file name — open the source link to see their display name.
 
-These are **reference / inspiration photos**, not projects by Hassan Marble and Granite. The site says so in the
+These are **reference / inspiration photos**, not projects by Hassan Marble and Tiles. The site says so in the
 products note and gallery introduction. Replace them with your own work over time (see `IMAGES_TO_REPLACE.md`).
 
 All file paths are under `assets/images/`. Each image exists as `.webp` and `.jpg` (product images also as `-480`).
@@ -65,11 +65,11 @@ All file paths are under `assets/images/`. Each image exists as `.webp` and `.jp
 | 48 | `products/sunny-grey-stairs` | [pexels.com/photo/12100664](https://www.pexels.com/photo/12100664/) | Markus Winkler | Pexels License |
 | 49 | `products/white-marble-stairs` | [pexels.com/photo/8659658](https://www.pexels.com/photo/8659658/) | martin-de-arriba (Pexels profile) | Pexels License |
 
-## Our own photos (Hassan Marble and Granite)
+## Our own photos (Hassan Marble and Tiles)
 
 Taken at our yard and showroom, Street 589, G-13/2, Islamabad. Owned by the business; straightened, cropped and colour-corrected for the site.
 
-- `assets/images/yard/*` — Ready Stock section (shop front, signboard, stock rows, slabs, skirting & patti, sample walls)
+- `assets/images/yard/*` — Ready Stock section (shop signboard, stock rows, slabs, skirting & patti, sample walls)
 - `products/sunny-grey-marble-stock`, `ziarat-grey-marble-stock`, `ziarat-white-marble-stock`, `skirting-stock`, `black-marble-patti` — product cards marked "Real photo"
 
 ## Generated (not photographs)

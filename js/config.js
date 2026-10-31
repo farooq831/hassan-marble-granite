@@ -1,5 +1,5 @@
 /* =====================================================================
-   SITE CONFIG — Hassan Marble and Granite (G-13, Islamabad)
+   SITE CONFIG — Hassan Marble and Tiles (G-13, Islamabad)
    ---------------------------------------------------------------------
    This is the ONE place for business details. Everything on the site
    (phone links, WhatsApp links, map, footer, structured data) reads
@@ -10,8 +10,8 @@
    stays hidden automatically. Fill them in when you have real data.
    ===================================================================== */
 window.SITE_CONFIG = {
-  businessName: "Hassan Marble and Granite",
-  shortName: "Hassan Marble & Granite",
+  businessName: "Hassan Marble and Tiles",
+  shortName: "Hassan Marble & Tiles",
 
   /* Phone shown on the site, and the international form used in links */
   phone: "0311 5081044",
@@ -41,18 +41,15 @@ window.SITE_CONFIG = {
   mapLinkUrl: "https://www.google.com/maps?q=Street+589,+G-13/2,+Islamabad,+Pakistan",
   directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Street+589+G-13/2+Islamabad+Pakistan",
 
-  /* >>> PLACEHOLDER <<<  Business hours. Example:
-       hours: { en: "Mon–Sat: 9:00 AM – 7:00 PM", ur: "پیر تا ہفتہ: صبح 9 تا شام 7" },
-       hoursSchema: ["Mo-Sa 09:00-19:00"],
-     Leave empty to hide hours everywhere. */
-  hours: { en: "", ur: "" },
-  hoursSchema: [],
+  /* Business hours — leave empty to hide hours everywhere */
+  hours: { en: "Open every day: 9:00 AM – 8:00 PM", ur: "روزانہ کھلا ہے: صبح 9 بجے تا رات 8 بجے" },
+  hoursSchema: ["Mo-Su 09:00-20:00"],
 
   /* >>> PLACEHOLDER <<<  e.g. "info@example.com" — empty = hidden */
   email: "",
 
-  /* >>> PLACEHOLDER <<<  full URLs, e.g. "https://www.facebook.com/yourpage" — empty = hidden */
-  facebookUrl: "",
+  /* Social pages — full URLs; empty = hidden */
+  facebookUrl: "https://www.facebook.com/profile.php?id=100083355431931",
   instagramUrl: "",
 
   /* Your live site address, with a trailing slash.
