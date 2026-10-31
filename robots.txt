@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://farooq831.github.io/hassan-marble-granite/sitemap.xml
+Sitemap: https://farooq831.github.io/hassan-marble-tiles/sitemap.xml

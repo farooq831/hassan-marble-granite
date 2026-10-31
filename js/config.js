@@ -49,12 +49,12 @@ window.SITE_CONFIG = {
   email: "",
 
   /* Social pages — full URLs; empty = hidden */
-  facebookUrl: "https://www.facebook.com/profile.php?id=100083355431931",
+  facebookUrl: "https://www.facebook.com/hassanmarbletiles/",
   instagramUrl: "",
 
   /* Your live site address, with a trailing slash.
      After publishing on GitHub Pages, change to e.g.
-     "https://yourusername.github.io/hassan-marble-granite/"
+     "https://yourusername.github.io/hassan-marble-tiles/"
      (also update the canonical / og:url tags and sitemap.xml — see README) */
-  siteBaseUrl: "https://farooq831.github.io/hassan-marble-granite/"
+  siteBaseUrl: "https://farooq831.github.io/hassan-marble-tiles/"
 };

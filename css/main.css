@@ -222,6 +222,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 .lang-switch button[data-lang="ur"] { font-family: "Noto Nastaliq Urdu", var(--sans); letter-spacing: 0; font-size: .8rem; }
 .lang-switch button[aria-pressed="true"] { background: var(--gold); color: var(--charcoal); }
 .nav__wa { display: none; }
+.nav__wa.btn--sm { letter-spacing: .1em; padding-inline: .95rem; gap: .5rem; }
+/* round Facebook button beside WhatsApp; fills Facebook blue on hover */
+.nav__fb { display: none; width: 42px; height: 42px; flex: none; place-items: center; border-radius: 50%; border: 1px solid var(--gold); color: var(--gold); transition: background-color .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease), transform .3s var(--ease); }
+.nav__fb svg { width: 19px; height: 19px; }
+.nav__fb:hover { background: #1877F2; border-color: #1877F2; color: #fff; transform: translateY(-2px); }
 
 /* Animated hamburger */
 .burger { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid var(--line-dark); border-radius: 50%; }
@@ -272,6 +277,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 @media (min-width: 640px) {
   .nav__wa { display: inline-flex; }
+  .nav__fb { display: grid; }
 }
 @media (max-width: 399.98px) {
   .brand__name { font-size: 1.2rem; letter-spacing: .22em; }
@@ -282,8 +288,15 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 @media (min-width: 1100px) {
   .nav__menu { display: flex; align-items: center; }
-  .nav__menu .nav__menu-wa { display: none; }
+  .nav__menu .nav__menu-wa, .nav__menu .nav__menu-fb { display: none; }
   .burger { display: none; }
+}
+/* small laptops: tighten the bar so WhatsApp + Facebook still fit */
+@media (min-width: 1100px) and (max-width: 1299.98px) {
+  .nav__links { gap: .95rem; }
+  .nav__link { letter-spacing: .1em; }
+  .nav__actions { gap: .55rem; }
+  .nav__wa.btn--sm { padding-inline: .8rem; letter-spacing: .06em; }
 }
 
 /* 7. HERO ------------------------------------------------------------- */

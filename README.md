@@ -44,7 +44,7 @@ Then open <http://localhost:8000>.
 
 ## Deploy to GitHub Pages (free, no domain or hosting needed)
 
-1. **Create a new public repository** on GitHub, for example `hassan-marble-granite`
+1. **Create a new public repository** on GitHub, for example `hassan-marble-tiles`
    (github.com → **+** → *New repository* → Public → *Create repository*). Don't add a README there.
 
 2. **Upload the site.** Open a terminal **inside the `Showroom_web` folder** and run:
@@ -58,12 +58,12 @@ Then open <http://localhost:8000>.
    git push -u origin main
    ```
 
-   Replace `<repo-url>` with the address GitHub shows, e.g. `https://github.com/USERNAME/hassan-marble-granite.git`.
+   Replace `<repo-url>` with the address GitHub shows, e.g. `https://github.com/USERNAME/hassan-marble-tiles.git`.
 
 3. **Turn on Pages:** on GitHub open **Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder: `/ (root)` → Save**.
 
 4. **Wait 1–2 minutes.** The site goes live at
-   `https://USERNAME.github.io/REPO/` (for example `https://faizan.github.io/hassan-marble-granite/`).
+   `https://USERNAME.github.io/REPO/` (for example `https://faizan.github.io/hassan-marble-tiles/`).
 
 5. **Put your real address into the site.** Replace every `https://USERNAME.github.io/REPO/` with your live address (keep the trailing `/`):
    - `js/config.js` → `siteBaseUrl`
